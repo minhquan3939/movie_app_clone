@@ -1,4 +1,5 @@
 export const SCREEN_NAMES = {
   HOME: 'Home',
-  DETAIL: 'Detail'
+  DETAIL: 'Detail',
+  SPLASH:'splash'
 };
