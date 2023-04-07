@@ -7,6 +7,9 @@ import { SCREEN_NAMES } from './../constants/screenNames';
 import Home from './../screens/home/index';
 import Detail from './../screens/detail/index';
 import splash from '../screens/splash';
+import session from '../screens/sessions';
+import login from '../screens/login';
+import Authencation from '../screens/authencation';
 
 const MainStack = createNativeStackNavigator();
 
@@ -18,9 +21,12 @@ const MainRoutes = () => {
   return (
     <NavigationContainer>
       <MainStack.Navigator screenOptions={{ ...defaultOptions }}>
-        {/* <MainStack.Screen name={SCREEN_NAMES.SPLASH} component = {splash} /> */}
+        <MainStack.Screen name={SCREEN_NAMES.SPLASH} component={splash} />
         <MainStack.Screen name={SCREEN_NAMES.HOME} component={Home} />
         <MainStack.Screen name={SCREEN_NAMES.DETAIL} component={Detail} />
+        <MainStack.Screen name={SCREEN_NAMES.SESSION} component={session} />
+        <MainStack.Screen name={SCREEN_NAMES.LOGIN} component={login} />
+        <MainStack.Screen name={SCREEN_NAMES.AUTHENCATION} component={Authencation} />
       </MainStack.Navigator>
     </NavigationContainer>
   );
