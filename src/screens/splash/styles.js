@@ -23,6 +23,10 @@ const styles = StyleSheet.create({
     borderRadius: 8,
     color: 'white',
     fontSize: 18
+  },
+  logo_splash: {
+    width: 138,
+    height: 138
   }
 });
 

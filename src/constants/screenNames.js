@@ -4,5 +4,6 @@ export const SCREEN_NAMES = {
   SPLASH: 'splash',
   SESSION: 'session',
   LOGIN: 'login',
-  AUTHENCATION: 'authencation'
+  AUTHENCATION: 'authencation',
+  OVERVIEW: 'overview'
 };

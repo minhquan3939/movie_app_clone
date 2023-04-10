@@ -10,8 +10,8 @@ const styles = StyleSheet.create({
     padding: 20
   },
   image_logo_home: {
-    width: 50,
-    height: 44
+    width: 60,
+    height: 54
   },
   text_home: {
     color: 'white',

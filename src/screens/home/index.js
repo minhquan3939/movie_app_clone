@@ -21,7 +21,9 @@ const Home = props => {
       <ScrollView bounces={false}>
         <View style={styles.container}>
           <View style={styles.header_home}>
-            <Image source={require('../../assets/Logo.png')} style={styles.image_logo_home}></Image>
+            <Image
+              source={require('../../assets/Product_Logo.png')}
+              style={styles.image_logo_home}></Image>
             <Text style={styles.text_home}>
               <Image source={require('../../assets/Vector.png')}></Image> Nur-Sultan
             </Text>

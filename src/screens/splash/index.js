@@ -10,7 +10,7 @@ const splash = props => {
         source={require('../../assets/splash_screen.jpg')}
         style={styles.splash_screen}></Image>
 
-      <Image source={require('../../assets/Logo.png')}></Image>
+      <Image source={require('../../assets/Product_Logo.png')} style={styles.logo_splash}></Image>
       <TouchableOpacity
         onPress={() => {
           navigation.navigate(SCREEN_NAMES.HOME);
