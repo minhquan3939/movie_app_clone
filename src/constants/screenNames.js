@@ -5,5 +5,6 @@ export const SCREEN_NAMES = {
   SESSION: 'session',
   LOGIN: 'login',
   AUTHENCATION: 'authencation',
-  OVERVIEW: 'overview'
+  OVERVIEW: 'overview',
+  SELECT_SEAT: 'select_seat'
 };

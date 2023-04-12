@@ -11,6 +11,7 @@ import session from '../screens/sessions';
 import login from '../screens/login';
 import Authencation from '../screens/authencation';
 import overview from '../screens/OverView';
+import select_seat from '../screens/select_seats';
 
 const MainStack = createNativeStackNavigator();
 
@@ -22,6 +23,7 @@ const MainRoutes = () => {
   return (
     <NavigationContainer>
       <MainStack.Navigator screenOptions={{ ...defaultOptions }}>
+        <MainStack.Screen name={SCREEN_NAMES.SELECT_SEAT} component={select_seat} />
         <MainStack.Screen name={SCREEN_NAMES.OVERVIEW} component={overview} />
         <MainStack.Screen name={SCREEN_NAMES.SPLASH} component={splash} />
         <MainStack.Screen name={SCREEN_NAMES.HOME} component={Home} />

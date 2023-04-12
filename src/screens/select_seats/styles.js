@@ -99,17 +99,36 @@ const styles = StyleSheet.create({
   },
   seat_list: {
     borderWidth: 0,
-    width: 16,
-    height: 16,
-    borderRadius: 12,
+    width: 32,
+    height: 32,
+    borderRadius: 8,
     marginRight: 10,
     backgroundColor: '#253554',
-    marginBottom: 10
+    marginBottom: 10,
+    alignItems: 'center',
+    justifyContent: 'center'
   },
   list_row: {
     flexDirection: 'row',
     marginTop: 15,
     marginLeft: 12
+  },
+  txt_seat: {
+    color: 'white'
+  },
+  button: {
+    borderWidth: 1,
+    width: 343,
+    height: 56,
+    borderRadius: 8,
+    backgroundColor: '#FC6D19',
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginTop: 10
+  },
+  txt_button: {
+    color: 'white',
+    fontSize: 18
   }
 
   //end seat map

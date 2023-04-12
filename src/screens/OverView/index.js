@@ -1,11 +1,13 @@
-import { StyleSheet, Text, View, Image, TouchableOpacity } from 'react-native';
+import { StyleSheet, Text, View, Image, TouchableOpacity, FlatList } from 'react-native';
 import React from 'react';
 import styles from './styles';
-const overview = () => {
+import { SCREEN_NAMES } from '../../constants/screenNames';
+const overview = props => {
+  const { navigation } = props;
   return (
     <View style={styles.container}>
       <View style={styles.header}>
-        <TouchableOpacity>
+        <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SESSION)}>
           <Image
             source={require('../../assets/Back.png')}
             activeOpacity={0.2}
@@ -31,12 +33,174 @@ const overview = () => {
           <Text style={styles.txt_date}> 15:10 </Text>
         </View>
       </View>
+      <View style={styles.seat_map}>
+        <View style={styles.symbols}>
+          <View style={styles.items}>
+            <Text style={styles.seat}> </Text>
+            <Text style={styles.available}>Available</Text>
+          </View>
+          <View style={styles.items}>
+            <Text style={styles.seat}> </Text>
+            <Text style={styles.available}>Occupied</Text>
+          </View>
+          <View style={styles.items}>
+            <Text style={styles.seat}> </Text>
+            <Text style={styles.available}>Chosen</Text>
+          </View>
+        </View>
 
-      <View>
-        <Image
-          source={require('../../assets/Screen.png')}
-          activeOpacity={0.2}
-          style={styles.ImageIconStyle}></Image>
+        <View style={styles.screens}>
+          <Image
+            source={require('../../assets/Screen.png')}
+            activeOpacity={0.2}
+            style={styles.ImageIconStyle}></Image>
+        </View>
+        <View style={styles.list_row}>
+          <View style={styles.list}>
+            <Text style={styles.seat_list}> </Text>
+            <Text style={styles.seat_list}> </Text>
+            <Text style={styles.seat_list}> </Text>
+            <Text style={styles.seat_list}> </Text>
+            <Text style={styles.seat_list}> </Text>
+            <Text style={styles.seat_list}> </Text>
+            <Text style={styles.seat_list}> </Text>
+            <Text style={styles.seat_list}> </Text>
+            <Text style={styles.seat_list}> </Text>
+            <Text style={styles.seat_list}> </Text>
+          </View>
+          <View style={styles.list}>
+            <Text style={styles.seat_list}> </Text>
+            <Text style={styles.seat_list}> </Text>
+            <Text style={styles.seat_list}> </Text>
+            <Text style={styles.seat_list}> </Text>
+            <Text style={styles.seat_list}> </Text>
+            <Text style={styles.seat_list}> </Text>
+            <Text style={styles.seat_list}> </Text>
+            <Text style={styles.seat_list}> </Text>
+            <Text style={styles.seat_list}> </Text>
+            <Text style={styles.seat_list}> </Text>
+          </View>
+          <View style={styles.list}>
+            <Text style={styles.seat_list}> </Text>
+            <Text style={styles.seat_list}> </Text>
+            <Text style={styles.seat_list}> </Text>
+            <Text style={styles.seat_list}> </Text>
+            <Text style={styles.seat_list}> </Text>
+            <Text style={styles.seat_list}> </Text>
+            <Text style={styles.seat_list}> </Text>
+            <Text style={styles.seat_list}> </Text>
+            <Text style={styles.seat_list}> </Text>
+            <Text style={styles.seat_list}> </Text>
+          </View>
+          <View style={styles.list}>
+            <Text style={styles.seat_list}> </Text>
+            <Text style={styles.seat_list}> </Text>
+            <Text style={styles.seat_list}> </Text>
+            <Text style={styles.seat_list}> </Text>
+            <Text style={styles.seat_list}> </Text>
+            <Text style={styles.seat_list}> </Text>
+            <Text style={styles.seat_list}> </Text>
+            <Text style={styles.seat_list}> </Text>
+            <Text style={styles.seat_list}> </Text>
+            <Text style={styles.seat_list}> </Text>
+          </View>
+          <View style={styles.list}>
+            <Text style={styles.seat_list}> </Text>
+            <Text style={styles.seat_list}> </Text>
+            <Text style={styles.seat_list}> </Text>
+            <Text style={styles.seat_list}> </Text>
+            <Text style={styles.seat_list}> </Text>
+            <Text style={styles.seat_list}> </Text>
+            <Text style={styles.seat_list}> </Text>
+            <Text style={styles.seat_list}> </Text>
+            <Text style={styles.seat_list}> </Text>
+            <Text style={styles.seat_list}> </Text>
+          </View>
+          <View style={styles.list}>
+            <Text style={styles.seat_list}> </Text>
+            <Text style={styles.seat_list}> </Text>
+            <Text style={styles.seat_list}> </Text>
+            <Text style={styles.seat_list}> </Text>
+            <Text style={styles.seat_list}> </Text>
+            <Text style={styles.seat_list}> </Text>
+            <Text style={styles.seat_list}> </Text>
+            <Text style={styles.seat_list}> </Text>
+            <Text style={styles.seat_list}> </Text>
+            <Text style={styles.seat_list}> </Text>
+          </View>
+          <View style={styles.list}>
+            <Text style={styles.seat_list}> </Text>
+            <Text style={styles.seat_list}> </Text>
+            <Text style={styles.seat_list}> </Text>
+            <Text style={styles.seat_list}> </Text>
+            <Text style={styles.seat_list}> </Text>
+            <Text style={styles.seat_list}> </Text>
+            <Text style={styles.seat_list}> </Text>
+            <Text style={styles.seat_list}> </Text>
+            <Text style={styles.seat_list}> </Text>
+            <Text style={styles.seat_list}> </Text>
+          </View>
+          <View style={styles.list}>
+            <Text style={styles.seat_list}> </Text>
+            <Text style={styles.seat_list}> </Text>
+            <Text style={styles.seat_list}> </Text>
+            <Text style={styles.seat_list}> </Text>
+            <Text style={styles.seat_list}> </Text>
+            <Text style={styles.seat_list}> </Text>
+            <Text style={styles.seat_list}> </Text>
+            <Text style={styles.seat_list}> </Text>
+            <Text style={styles.seat_list}> </Text>
+            <Text style={styles.seat_list}> </Text>
+          </View>
+          <View style={styles.list}>
+            <Text style={styles.seat_list}> </Text>
+            <Text style={styles.seat_list}> </Text>
+            <Text style={styles.seat_list}> </Text>
+            <Text style={styles.seat_list}> </Text>
+            <Text style={styles.seat_list}> </Text>
+            <Text style={styles.seat_list}> </Text>
+            <Text style={styles.seat_list}> </Text>
+            <Text style={styles.seat_list}> </Text>
+            <Text style={styles.seat_list}> </Text>
+            <Text style={styles.seat_list}> </Text>
+          </View>
+          <View style={styles.list}>
+            <Text style={styles.seat_list}> </Text>
+            <Text style={styles.seat_list}> </Text>
+            <Text style={styles.seat_list}> </Text>
+            <Text style={styles.seat_list}> </Text>
+            <Text style={styles.seat_list}> </Text>
+            <Text style={styles.seat_list}> </Text>
+            <Text style={styles.seat_list}> </Text>
+            <Text style={styles.seat_list}> </Text>
+            <Text style={styles.seat_list}> </Text>
+            <Text style={styles.seat_list}> </Text>
+          </View>
+          <View style={styles.list}>
+            <Text style={styles.seat_list}> </Text>
+            <Text style={styles.seat_list}> </Text>
+            <Text style={styles.seat_list}> </Text>
+            <Text style={styles.seat_list}> </Text>
+            <Text style={styles.seat_list}> </Text>
+            <Text style={styles.seat_list}> </Text>
+            <Text style={styles.seat_list}> </Text>
+            <Text style={styles.seat_list}> </Text>
+            <Text style={styles.seat_list}> </Text>
+            <Text style={styles.seat_list}> </Text>
+          </View>
+          <View style={styles.list}>
+            <Text style={styles.seat_list}> </Text>
+            <Text style={styles.seat_list}> </Text>
+            <Text style={styles.seat_list}> </Text>
+            <Text style={styles.seat_list}> </Text>
+            <Text style={styles.seat_list}> </Text>
+            <Text style={styles.seat_list}> </Text>
+            <Text style={styles.seat_list}> </Text>
+            <Text style={styles.seat_list}> </Text>
+            <Text style={styles.seat_list}> </Text>
+            <Text style={styles.seat_list}> </Text>
+          </View>
+        </View>
       </View>
     </View>
   );
