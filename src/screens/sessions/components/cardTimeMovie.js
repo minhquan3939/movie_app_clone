@@ -27,7 +27,8 @@ const CardTimeMovie = props => {
         <View style={styles.border_dropdown}>
           <View style={styles.br_dropdown}>
             <View>
-              <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.OVERVIEW)}>
+              <TouchableOpacity>
+                {/* onPress={() => navigation.navigate(SCREEN_NAMES.OVERVIEW)} */}
                 <Text style={styles.txt_dr_left}>Eurasia Cinema7</Text>
               </TouchableOpacity>
               <Text style={styles.txt_dr_left_bottom}>ул. Петрова, д.24, ТЦ "Евразия"</Text>

@@ -23,14 +23,14 @@ const MainRoutes = () => {
   return (
     <NavigationContainer>
       <MainStack.Navigator screenOptions={{ ...defaultOptions }}>
-        <MainStack.Screen name={SCREEN_NAMES.SELECT_SEAT} component={select_seat} />
-        <MainStack.Screen name={SCREEN_NAMES.OVERVIEW} component={overview} />
         <MainStack.Screen name={SCREEN_NAMES.SPLASH} component={splash} />
         <MainStack.Screen name={SCREEN_NAMES.HOME} component={Home} />
         <MainStack.Screen name={SCREEN_NAMES.DETAIL} component={Detail} />
         <MainStack.Screen name={SCREEN_NAMES.SESSION} component={session} />
         <MainStack.Screen name={SCREEN_NAMES.LOGIN} component={login} />
         <MainStack.Screen name={SCREEN_NAMES.AUTHENCATION} component={Authencation} />
+        <MainStack.Screen name={SCREEN_NAMES.SELECT_SEAT} component={select_seat} />
+        <MainStack.Screen name={SCREEN_NAMES.OVERVIEW} component={overview} />
       </MainStack.Navigator>
     </NavigationContainer>
   );
