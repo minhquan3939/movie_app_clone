@@ -114,7 +114,9 @@ const Detail = props => {
 
       {/* //end about */}
       <View style={styles.footer}>
-        <TouchableOpacity style={styles.Button_footer} onPress={() => {}}>
+        <TouchableOpacity
+          style={styles.Button_footer}
+          onPress={() => navigation.navigate(SCREEN_NAMES.SESSION)}>
           <Text activeOpacity={0.2} style={styles.Button_footer_txt}>
             Select session
           </Text>
