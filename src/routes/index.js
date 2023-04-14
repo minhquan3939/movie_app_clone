@@ -12,6 +12,9 @@ import login from '../screens/login';
 import Authencation from '../screens/authencation';
 import overview from '../screens/OverView';
 import select_seat from '../screens/select_seats';
+import pay from '../screens/pay';
+import ticket from '../screens/ticket';
+import profile from '../screens/profile';
 
 const MainStack = createNativeStackNavigator();
 
@@ -31,6 +34,9 @@ const MainRoutes = () => {
         <MainStack.Screen name={SCREEN_NAMES.AUTHENCATION} component={Authencation} />
         <MainStack.Screen name={SCREEN_NAMES.SELECT_SEAT} component={select_seat} />
         <MainStack.Screen name={SCREEN_NAMES.OVERVIEW} component={overview} />
+        <MainStack.Screen name={SCREEN_NAMES.PAY} component={pay} />
+        <MainStack.Screen name={SCREEN_NAMES.PROFILE} component={profile} />
+        <MainStack.Screen name={SCREEN_NAMES.TICKET} component={ticket} />
       </MainStack.Navigator>
     </NavigationContainer>
   );

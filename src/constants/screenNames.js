@@ -6,5 +6,8 @@ export const SCREEN_NAMES = {
   LOGIN: 'login',
   AUTHENCATION: 'authencation',
   OVERVIEW: 'overview',
-  SELECT_SEAT: 'select_seat'
+  SELECT_SEAT: 'select_seat',
+  PAY: 'pay',
+  TICKET: 'ticket',
+  PROFILE: 'profile'
 };

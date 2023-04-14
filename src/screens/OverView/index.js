@@ -57,148 +57,388 @@ const overview = props => {
         </View>
         <View style={styles.list_row}>
           <View style={styles.list}>
-            <Text style={styles.seat_list}> </Text>
-            <Text style={styles.seat_list}> </Text>
-            <Text style={styles.seat_list}> </Text>
-            <Text style={styles.seat_list}> </Text>
-            <Text style={styles.seat_list}> </Text>
-            <Text style={styles.seat_list}> </Text>
-            <Text style={styles.seat_list}> </Text>
-            <Text style={styles.seat_list}> </Text>
-            <Text style={styles.seat_list}> </Text>
-            <Text style={styles.seat_list}> </Text>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
           </View>
           <View style={styles.list}>
-            <Text style={styles.seat_list}> </Text>
-            <Text style={styles.seat_list}> </Text>
-            <Text style={styles.seat_list}> </Text>
-            <Text style={styles.seat_list}> </Text>
-            <Text style={styles.seat_list}> </Text>
-            <Text style={styles.seat_list}> </Text>
-            <Text style={styles.seat_list}> </Text>
-            <Text style={styles.seat_list}> </Text>
-            <Text style={styles.seat_list}> </Text>
-            <Text style={styles.seat_list}> </Text>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
           </View>
           <View style={styles.list}>
-            <Text style={styles.seat_list}> </Text>
-            <Text style={styles.seat_list}> </Text>
-            <Text style={styles.seat_list}> </Text>
-            <Text style={styles.seat_list}> </Text>
-            <Text style={styles.seat_list}> </Text>
-            <Text style={styles.seat_list}> </Text>
-            <Text style={styles.seat_list}> </Text>
-            <Text style={styles.seat_list}> </Text>
-            <Text style={styles.seat_list}> </Text>
-            <Text style={styles.seat_list}> </Text>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
           </View>
           <View style={styles.list}>
-            <Text style={styles.seat_list}> </Text>
-            <Text style={styles.seat_list}> </Text>
-            <Text style={styles.seat_list}> </Text>
-            <Text style={styles.seat_list}> </Text>
-            <Text style={styles.seat_list}> </Text>
-            <Text style={styles.seat_list}> </Text>
-            <Text style={styles.seat_list}> </Text>
-            <Text style={styles.seat_list}> </Text>
-            <Text style={styles.seat_list}> </Text>
-            <Text style={styles.seat_list}> </Text>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
           </View>
           <View style={styles.list}>
-            <Text style={styles.seat_list}> </Text>
-            <Text style={styles.seat_list}> </Text>
-            <Text style={styles.seat_list}> </Text>
-            <Text style={styles.seat_list}> </Text>
-            <Text style={styles.seat_list}> </Text>
-            <Text style={styles.seat_list}> </Text>
-            <Text style={styles.seat_list}> </Text>
-            <Text style={styles.seat_list}> </Text>
-            <Text style={styles.seat_list}> </Text>
-            <Text style={styles.seat_list}> </Text>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
           </View>
           <View style={styles.list}>
-            <Text style={styles.seat_list}> </Text>
-            <Text style={styles.seat_list}> </Text>
-            <Text style={styles.seat_list}> </Text>
-            <Text style={styles.seat_list}> </Text>
-            <Text style={styles.seat_list}> </Text>
-            <Text style={styles.seat_list}> </Text>
-            <Text style={styles.seat_list}> </Text>
-            <Text style={styles.seat_list}> </Text>
-            <Text style={styles.seat_list}> </Text>
-            <Text style={styles.seat_list}> </Text>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
           </View>
           <View style={styles.list}>
-            <Text style={styles.seat_list}> </Text>
-            <Text style={styles.seat_list}> </Text>
-            <Text style={styles.seat_list}> </Text>
-            <Text style={styles.seat_list}> </Text>
-            <Text style={styles.seat_list}> </Text>
-            <Text style={styles.seat_list}> </Text>
-            <Text style={styles.seat_list}> </Text>
-            <Text style={styles.seat_list}> </Text>
-            <Text style={styles.seat_list}> </Text>
-            <Text style={styles.seat_list}> </Text>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
           </View>
           <View style={styles.list}>
-            <Text style={styles.seat_list}> </Text>
-            <Text style={styles.seat_list}> </Text>
-            <Text style={styles.seat_list}> </Text>
-            <Text style={styles.seat_list}> </Text>
-            <Text style={styles.seat_list}> </Text>
-            <Text style={styles.seat_list}> </Text>
-            <Text style={styles.seat_list}> </Text>
-            <Text style={styles.seat_list}> </Text>
-            <Text style={styles.seat_list}> </Text>
-            <Text style={styles.seat_list}> </Text>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
           </View>
           <View style={styles.list}>
-            <Text style={styles.seat_list}> </Text>
-            <Text style={styles.seat_list}> </Text>
-            <Text style={styles.seat_list}> </Text>
-            <Text style={styles.seat_list}> </Text>
-            <Text style={styles.seat_list}> </Text>
-            <Text style={styles.seat_list}> </Text>
-            <Text style={styles.seat_list}> </Text>
-            <Text style={styles.seat_list}> </Text>
-            <Text style={styles.seat_list}> </Text>
-            <Text style={styles.seat_list}> </Text>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
           </View>
           <View style={styles.list}>
-            <Text style={styles.seat_list}> </Text>
-            <Text style={styles.seat_list}> </Text>
-            <Text style={styles.seat_list}> </Text>
-            <Text style={styles.seat_list}> </Text>
-            <Text style={styles.seat_list}> </Text>
-            <Text style={styles.seat_list}> </Text>
-            <Text style={styles.seat_list}> </Text>
-            <Text style={styles.seat_list}> </Text>
-            <Text style={styles.seat_list}> </Text>
-            <Text style={styles.seat_list}> </Text>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
           </View>
           <View style={styles.list}>
-            <Text style={styles.seat_list}> </Text>
-            <Text style={styles.seat_list}> </Text>
-            <Text style={styles.seat_list}> </Text>
-            <Text style={styles.seat_list}> </Text>
-            <Text style={styles.seat_list}> </Text>
-            <Text style={styles.seat_list}> </Text>
-            <Text style={styles.seat_list}> </Text>
-            <Text style={styles.seat_list}> </Text>
-            <Text style={styles.seat_list}> </Text>
-            <Text style={styles.seat_list}> </Text>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
           </View>
           <View style={styles.list}>
-            <Text style={styles.seat_list}> </Text>
-            <Text style={styles.seat_list}> </Text>
-            <Text style={styles.seat_list}> </Text>
-            <Text style={styles.seat_list}> </Text>
-            <Text style={styles.seat_list}> </Text>
-            <Text style={styles.seat_list}> </Text>
-            <Text style={styles.seat_list}> </Text>
-            <Text style={styles.seat_list}> </Text>
-            <Text style={styles.seat_list}> </Text>
-            <Text style={styles.seat_list}> </Text>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.SELECT_SEAT)}>
+              <Text style={styles.seat_list}> </Text>
+            </TouchableOpacity>
           </View>
         </View>
       </View>

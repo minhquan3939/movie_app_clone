@@ -268,7 +268,9 @@ const select_seat = props => {
             </View>
           </View>
         </View>
-        <TouchableOpacity style={styles.button}>
+        <TouchableOpacity
+          style={styles.button}
+          onPress={() => navigation.navigate(SCREEN_NAMES.PAY)}>
           <Text style={styles.txt_button}> Buy 2 tickets • 3200 ₸</Text>
         </TouchableOpacity>
       </View>

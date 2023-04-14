@@ -1,9 +1,10 @@
 import { StyleSheet, Text, View, TouchableOpacity } from 'react-native';
 import React, { useState } from 'react';
 import { SCREEN_NAMES } from '../../../constants/screenNames';
+import { useNavigation } from '@react-navigation/native';
 const CardTimeMovie = props => {
   const [open, setOpen] = useState(false);
-  const { navigation } = props;
+  const navigation = useNavigation();
   return (
     <>
       <View style={styles.boder_list}>
@@ -27,8 +28,7 @@ const CardTimeMovie = props => {
         <View style={styles.border_dropdown}>
           <View style={styles.br_dropdown}>
             <View>
-              <TouchableOpacity>
-                {/* onPress={() => navigation.navigate(SCREEN_NAMES.OVERVIEW)} */}
+              <TouchableOpacity onPress={() => navigation.navigate(SCREEN_NAMES.OVERVIEW)}>
                 <Text style={styles.txt_dr_left}>Eurasia Cinema7</Text>
               </TouchableOpacity>
               <Text style={styles.txt_dr_left_bottom}>ул. Петрова, д.24, ТЦ "Евразия"</Text>
